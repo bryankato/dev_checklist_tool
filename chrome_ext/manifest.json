@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Dev Checklist",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApAR3gTAUuMUf/nAaIip/Vd2xMAR2Xk+9dqlVruWUdsMXeCGiuECchTmOguyPakqdTTA7Mbyd0RyaU86z63iX350cdyYXzfhLUwecQYIZUFh15c7HhGm8YliGj26voZAkczPB8EnaQtnhUIvTkdrys2/TtQy46bCmZlOTuAwM+xQXf0Yo0GkKCU/+bI/S/e7ZkYD+39Riwj/w/Xv+ipdfAH6clPJ/Xs+cOm+MsydKuR7bB3PermsHiv2LKbEnyS7wn7Vev5Q2pdGRRcMQDnXZwYP5YlrEQEp2xdwM2kIvCh2MOk7J0ULniFUpPpdk7Uy2jD72pCZxT4SiiuAUdMLogQIDAQAB",
+  "description": "",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon":
+    {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons":
+  {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "tabs",
+    "https://docs.google.com/spreadsheets/*",
+    "https://script.google.com/*"
+  ]
+}
